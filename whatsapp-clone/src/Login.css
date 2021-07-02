@@ -1,0 +1,29 @@
+.login {
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2017/01/black-wallpaper-4-1024x683.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.login__container{
+    padding: 100px;
+    text-align: center;
+    background-color: #080808;
+    border-radius: 10px;
+    color: white;
+}
+
+.login__container > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login__container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: white !important;
+    color: black;
+    text-decoration: none;
+}

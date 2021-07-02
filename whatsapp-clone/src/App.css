@@ -1,0 +1,15 @@
+.app {
+  display: grid;
+  place-items: center;
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2017/01/black-wallpaper-4-1024x683.jpg");
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  margin-top: -10px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.2);
+}
